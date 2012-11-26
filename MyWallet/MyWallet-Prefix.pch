@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'MyWallet' target in the 'MyWallet' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#define ColorMake(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a];
+#define whiteColor [UIColor whiteColor]
+
+#define isIphone [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone

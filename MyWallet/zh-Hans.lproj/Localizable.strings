@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  MyWallet
+
+  Created by xie liang on 11/14/12.
+  Copyright (c) 2012 xieliang. All rights reserved.
+*/
+
+//main page
+"main_title" = "我的钱包";
